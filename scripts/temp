@@ -1,1 +1,9 @@
+cd RPI5-Object-Detection-YOLO/datasets/coco
+curl -O http://images.cocodataset.org/zips/val2017.zip
+unzip val2017.zip
+rm val2017.zip
 
+cd RPI5-Object-Detection-YOLO/datasets/pascal_voc
+curl -O http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar
+tar -xvf VOCtrainval_11-May-2012.tar
+rm VOCtrainval_11-May-2012.tar
